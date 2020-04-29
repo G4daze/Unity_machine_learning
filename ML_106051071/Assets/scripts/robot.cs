@@ -27,7 +27,7 @@ public class robot : Agent
         Vector3 posRobot = new Vector3(Random.Range(-1f, 1f), 0.1f , Random.Range(-2f, 0));
         transform.position = posRobot;
 
-        Vector3 posBall = new Vector3(Random.Range(0.5f, 0.5f), 0.1f, Random.Range( 1f, 1.5f));
+        Vector3 posBall = new Vector3(Random.Range(0.5f, 0.5f), 0.1f, Random.Range( 2f, -2f));
         rigBall.position = posBall;
 
         ball.complete = false;
